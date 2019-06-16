@@ -2,8 +2,10 @@ package com.app.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name="prod_tab")
 public class Product {
 
 	@Id
